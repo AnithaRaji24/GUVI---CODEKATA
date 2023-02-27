@@ -1,0 +1,6 @@
+import math
+a = int(input())
+def area_of_eql_triangle(a):
+    area = 1/4 * math.sqrt(3) * a**2
+    return round(area, 2)
+area_of_eql_triangle(a)
