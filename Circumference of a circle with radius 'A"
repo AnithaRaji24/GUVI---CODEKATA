@@ -1,0 +1,10 @@
+import math
+A = float(input())
+def len_of_circumference(A):
+    if A < 0:
+        print('Error')
+    else:
+        circum = 2* math.pi *A
+        return round(circum, 2)     
+result = len_of_circumference(A)
+print(result)
