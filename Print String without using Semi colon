@@ -1,0 +1,5 @@
+s = input()
+if True:
+    if True:
+        if True:
+            print(s)
