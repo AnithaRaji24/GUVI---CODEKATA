@@ -1,0 +1,9 @@
+def find_length(s):
+    count = 0
+    for char in s:
+        count += 1
+    return count
+
+s = input()
+length = find_length(s)
+print(length)
