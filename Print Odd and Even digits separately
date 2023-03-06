@@ -1,0 +1,19 @@
+n = input() 
+
+even_digits = [] 
+odd_digits = [] 
+
+for digit in n:
+    if int(digit) % 2 == 0:
+        even_digits.append(int(digit))
+    else:
+        odd_digits.append(int(digit)) 
+
+even_digits_sorted = sorted(even_digits)
+odd_digits_sorted = sorted(odd_digits)
+
+even_digits_str = " ".join(str(digit) for digit in even_digits_sorted)
+odd_digits_str = " ".join(str(digit) for digit in odd_digits_sorted)
+
+print(even_digits_str)  
+print(odd_digits_str) 
