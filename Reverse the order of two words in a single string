@@ -1,0 +1,8 @@
+s = input()
+words = s.split()
+if len(words) == 2:
+    reversed_words = [words[1], words[0]]
+    reversed_s = ' '.join(reversed_words)
+    print(reversed_s)
+else:
+    print(s)
