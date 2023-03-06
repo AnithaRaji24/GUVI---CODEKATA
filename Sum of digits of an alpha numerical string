@@ -1,0 +1,11 @@
+s = input()
+output_str = ''
+sum_of_digits = 0
+
+for ch in s:
+    if ch.isdigit():
+        sum_of_digits += int(ch)
+    else:
+        output_str += ch
+
+print(output_str + str(sum_of_digits))
