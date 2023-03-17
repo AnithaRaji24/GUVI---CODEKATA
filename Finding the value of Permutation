@@ -1,0 +1,8 @@
+import math
+
+N, K = map(int, input().split())
+
+# Calculating nPk using the formula n! / (n - k)!
+nPk = math.factorial(N) // math.factorial(N - K)
+
+print(nPk)
