@@ -1,0 +1,16 @@
+import re
+
+# take input string from user
+s = input()
+
+# define the regular expression to match numeric strings
+regex = r'^[-+]?[0-9]*\.?[0-9]+$'
+
+# match the input string with the regular expression
+match = re.match(regex, s)
+
+# check if a match was found or not
+if match:
+    print('yes')
+else:
+    print('no')
