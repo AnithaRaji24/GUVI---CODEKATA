@@ -1,0 +1,5 @@
+import math
+
+angle = int(input())
+sine = math.sin(math.radians(angle))
+print(round(sine, 2))
