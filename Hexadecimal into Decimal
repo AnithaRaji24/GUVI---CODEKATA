@@ -1,0 +1,10 @@
+hex_num = input()
+decimal = 0
+
+for i in range(len(hex_num)):
+    digit = hex_num[-i-1]
+    if digit.isdigit():
+        decimal += int(digit) * 16**i
+    else:
+        decimal += (ord(digit.upper())-ord('A')+10) * 16**i 
+print(decimal)
