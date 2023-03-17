@@ -1,0 +1,14 @@
+n = int(input())
+
+# calculate sum of digits
+sum = 0
+while n > 0:
+    sum += n % 10
+    n //= 10
+
+# check if sum is palindrome
+sum_str = str(sum)
+if sum_str == sum_str[::-1]:
+    print("yes")
+else:
+    print("no")
