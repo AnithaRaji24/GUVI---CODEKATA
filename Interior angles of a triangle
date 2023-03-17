@@ -1,0 +1,7 @@
+A, B, C = map(int, input().split())
+
+# check if sum is equal to 180
+if A + B + C == 180:
+    print("yes")
+else:
+    print("no")
