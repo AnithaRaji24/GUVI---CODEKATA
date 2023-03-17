@@ -1,0 +1,8 @@
+N = int(input())
+arr = list(map(int, input().split()))
+
+bitwise_or = arr[0]
+for i in range(1, N):
+    bitwise_or = bitwise_or | arr[i]
+
+print(bitwise_or)
