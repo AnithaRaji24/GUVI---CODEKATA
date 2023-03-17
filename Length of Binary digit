@@ -1,0 +1,4 @@
+N = int(input())
+binary = bin(N)[2:] # Convert to binary and remove the prefix "0b"
+length = len(binary)
+print(length)
