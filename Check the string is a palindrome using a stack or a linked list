@@ -1,0 +1,16 @@
+s = input()
+stack = []
+
+for c in s:
+    stack.append(c)
+
+is_palindrome = True
+for c in s:
+    if c != stack.pop():
+        is_palindrome = False
+        break
+
+if is_palindrome:
+    print('yes')
+else:
+    print('no')
