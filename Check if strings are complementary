@@ -1,0 +1,9 @@
+s1 = input()
+s2 = input()
+
+concat_str = s1 + s2
+
+if ''.join(sorted(concat_str)) == 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+    print('yes')
+else:
+    print('no')
